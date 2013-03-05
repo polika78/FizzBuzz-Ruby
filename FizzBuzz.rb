@@ -1,9 +1,9 @@
 require "test/unit"
 
-#class for FizzBuzz
-#Two methods are created.
-#'generate' method makes FizzBuzz string according to conditions
-#'run' method makes string of FizzBuzz with range of number
+#Class FizzBuzz support two methods
+#'generate' method takes number and 
+#returns FizzBuzz string according to conditions
+#'run' method takes a range of number and returns string of FizzBuz
 class FizzBuzz
 	def generate num
 		return num%15 == 0 ? 'FizzBuzz':(num%3 == 0 ? 'Fizz':(num%5 == 0 ? 'Buzz':num))
