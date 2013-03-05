@@ -1,7 +1,7 @@
 require "test/unit"
 
 #class for FizzBuzz
-#Tow methods are created.
+#Two methods are created.
 #'generate' method makes FizzBuzz string according to conditions
 #'run' method makes string of FizzBuzz with range of number
 class FizzBuzz
